@@ -1,0 +1,49 @@
+.Contacts{
+  margin-bottom:0.51rem;
+  //min-height:100vh;
+  .vux-cell-value{
+    color:#666;
+  }
+  &-card{
+    background-color: #fff;
+    font-size: 0.14rem;
+    color: #666;
+    &-tit{
+      font-size: 0.15rem;
+      color: #333;
+      padding: 0.12rem 0.21rem 0.1rem;
+    }
+    .weui-cells{
+      margin-top:0;
+      &:before{
+        position:inherit;
+      }
+    }
+    .vux-x-input{
+      padding:.1rem .15rem .1rem .21rem ;
+    }
+  }
+  &-picker{
+    .weui-cell{
+      padding:.1rem .15rem .1rem .21rem ;
+      .vux-popup-picker-placeholder{
+        font-size: 0.14rem;
+        color: #666;
+      }
+    }
+  }
+  .hasSwitch{
+    padding-top:0.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:0.15rem;
+    .weui-switch:checked{
+      background-color:#00A0E9;
+      border-color:#00A0E9;
+    }
+    &:before{
+      top:0.18rem;
+    }
+  }
+}

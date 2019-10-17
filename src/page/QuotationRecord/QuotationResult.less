@@ -1,0 +1,92 @@
+.quotationResult {
+  font-size: 0.14rem;
+  //height: 100vh;
+  background-color: #fff;
+  .quotationResult-content {
+    font-size: 0.14rem;
+    color: #666666;
+    padding-bottom: 0.1rem;
+    .title {
+      color: #333333;
+      font-weight: 500;
+      //border-left:0.03rem solid #00A0E9;
+      height: 0.2rem;
+      line-height: 0.2rem;
+      margin-bottom: 0.09rem;
+      position: relative;
+      &:before {
+        content: " ";
+        position: absolute;
+        left: -0.05rem;
+        top: 0.03rem;
+        right: 0;
+        height: 0.12rem;
+        width: 0.03rem;
+        background: #00A0E9;
+      }
+    }
+    .weui-panel__bd {
+      padding: 0.12rem 0.2rem 0.04rem !important;
+    }
+    .quotationResult-vehicleInfo-item {
+      padding: 0.03rem 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      color: #666666;
+      &-label {
+        padding-right: 0.14rem;
+        flex-shrink: 0
+      }
+      &-desc {
+        word-break: break-all;
+      }
+    }
+  }
+  .quoteResult-insurance {
+    color: #333333;
+    background: #fff;
+    font-size: 0.14rem !important;
+    .weui-cell__ft {
+      color: #00A0E9;
+    }
+    .quoteFail {
+      .weui-cell__ft {
+        color: #DE0000;
+      }
+    }
+    .vux-label-desc {
+      font-size: 0.12rem;
+      color: #FF3A3A;
+    }
+    &-content {
+      position: relative;
+      &:after {
+        content: " ";
+        position: absolute;
+        left: 15px;
+        bottom: 0;
+        right: 0;
+        height: 1px;
+        border-top: 1px solid #D9D9D9;
+        color: #D9D9D9;
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+        -webkit-transform: scaleY(0.5);
+        transform: scaleY(0.5);
+      }
+    }
+  }
+  .weui-cells {
+    margin-top: 0.09rem !important;
+    font-size: 0.14rem;
+  }
+}
+.vux-alert {
+  .vux-x-dialog-absolute .weui-dialog {
+    position: fixed;
+  }
+  .weui-dialog__btn_primary{
+    color: #00A0E9;
+  }
+}

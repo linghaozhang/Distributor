@@ -1,0 +1,359 @@
+.quoteSuccess {
+  font-size: 0.14rem;
+  color: #333333;
+  margin-bottom: 0.95rem;
+  .title {
+    background: #ffffff;
+    .weui-cell {
+      padding: 0.15rem;
+      .weui-cell__ft {
+        color: #00A0E9;
+      }
+    }
+  }
+  .quoteSuccess-title {
+    color: #333333;
+    font-weight: 500;
+    height: 0.2rem;
+    line-height: 0.2rem;
+    margin-bottom: 0.1rem;
+    position: relative;
+    &:before {
+      content: " ";
+      position: absolute;
+      left: -0.05rem;
+      top: 0.04rem;
+      right: 0;
+      height: 0.12rem;
+      width: 0.03rem;
+      background: #00A0E9;
+    }
+  }
+  .quoteSuccess-vehicleInfo-content {
+    padding: 0.1rem 0.2rem 0.04rem !important;
+    background: #ffffff;
+    margin-top: 0.09rem;
+    color: #666666;
+    .quoteSuccess-vehicleInfo-item {
+      padding: 0.03rem 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      color: #666666;
+      &-label {
+        padding-right: 0.14rem;
+        flex-shrink: 0
+      }
+    }
+  }
+  .quoteSuccess-insurance {
+    margin-top: 0.09rem;
+    background: #ffffff;
+    .weui-cell_access .weui-cell__ft::after {
+      content: " ";
+      display: inline-block;
+      height: 6px;
+      width: 6px;
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+      position: absolute;
+      top: 50%;
+      margin-top: -4px;
+      right: 2px;
+      border-width: 2px 2px 0px 0px;
+      border-color: rgb(200, 200, 205);
+      border-style: solid;
+    }
+    .weui-cell_access .weui-cell__ft.vux-cell-arrow-down:after {
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0) rotate(90deg);
+    }
+    .weui-cell_access .weui-cell__ft.vux-cell-arrow-up:after {
+      transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0) rotate(-90deg);
+    }
+    .weui-cell {
+      padding: 0.09rem 0.27rem 0.09rem 0.2rem;
+      position: relative;
+    }
+    .vux-label {
+      letter-spacing: 0.07rem;
+      color: #333333;
+    }
+    .insurance-item-down {
+      position: absolute;
+      right: 0.15rem;
+      bottom: 0.16rem;
+    }
+    .quoteSuccess-insurance-sum {
+      .vux-label {
+        letter-spacing: 0.01rem;
+      }
+      .weui-cell__ft {
+        color: #333333;
+        font-weight: 500;
+      }
+    }
+
+    .commerce-insurance-detail {
+      background-color: #FAFAFA;
+      margin: 0 0.15rem;
+      padding: 0.1rem 0.12rem 0 0.07rem;
+      color: #666666;
+      font-size: 0.13rem;
+
+      .commerce-insurance-detail-item {
+        position: relative;
+        .detail-title {
+          height: 0.18rem;
+          line-height: 0.18rem;
+        }
+        .detail-value {
+          float: right;
+        }
+        .detail-remark {
+          font-size: 0.11rem;
+          color: #999999;
+          height: 0.16rem;
+          line-height: 0.16rem;
+        }
+      }
+      .item-line {
+        margin-bottom: 0.08rem;
+        padding-bottom: 0.07rem;
+        &:after {
+          content: " ";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          height: 1px;
+          border-top: 1px solid #CCCCCC;
+          color: #CCCCCC;
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+        }
+        &:last-child {
+          &:after {
+            border-top: 0;
+          }
+        }
+      }
+    }
+  }
+  .quoteSuccess-counter {
+    margin-top: 0.09rem;
+    padding: 0.1rem 0.2rem 0.04rem;
+    background-color: #ffffff;
+    .quoteSuccess-counter-title {
+      font-size: 0.15rem;
+    }
+    .quoteSuccess-counter-content {
+      padding-left: 0.05rem;
+      color: #333333;
+      .quoteSuccess-counter-item {
+        margin-bottom: 0.13rem;
+        .counter-item-left {
+          margin-right: 0.82rem;
+        }
+        input {
+          width: 0.56rem;
+          height: 0.24rem;
+          text-align: center;
+        }
+        .counter-item-right {
+          padding-left: 0.02rem;
+          color: #666666;
+        }
+      }
+
+      .quoteSuccess-counter-check {
+        position: relative;
+        padding: 0.12rem 0 0.21rem 0;
+        &:before {
+          content: " ";
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          height: 1px;
+          border-top: 1px solid #DEDEDE;
+          color: #DEDEDE;
+          -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+          -webkit-transform: scaleY(0.5);
+          transform: scaleY(0.5);
+        }
+        .weui-icon-circle {
+          font-size: 0.12rem;
+          color: #C9C9C9;
+        }
+        .weui-icon-success-circle, .weui-icon-success {
+          font-size: 0.12rem;
+          color: #0080FF;
+        }
+        .vux-check-icon {
+          font-size: 0.12rem;
+        }
+        .vux-check-icon > span {
+          line-height: 0.27rem;
+          color: #666666;
+          vertical-align: baseline;
+        }
+        .weui-btn {
+          width: 0.8rem;
+          height: 0.27rem;
+          border: 1px solid #0080FF;
+          color: #0080FF;
+          font-size: 0.14rem;
+          line-height: 0.27rem;
+          float: right;
+        }
+      }
+    }
+    .quoteSuccess-counter-price {
+      .weui-cell {
+        padding-right: 0.05rem;
+      }
+      .finalPrice {
+        .weui-cell__ft {
+          color: #DE0000;
+        }
+      }
+    }
+  }
+  .quoteSuccess-footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    &-sum {
+      padding: 0.1rem 0.25rem;
+      font-size: 0.13rem;
+      box-shadow: #eeeeee 0px -3px 10px 0px;
+      .weui-cell__ft {
+        font-size: 0.15rem;
+        color: #00A0E9;
+      }
+    }
+    .quoteSuccess-btn {
+      display: flex;
+      flex-wrap: nowrap;
+
+      .btn-buy {
+        background: #F6B352;
+        border-radius: 0;
+        height: 0.44rem;
+        font-size: 0.15rem;
+        line-height: 0.44rem;
+        &:after {
+          border: 0;
+        }
+      }
+      .btn-item {
+        display: flex;
+        flex: 5.5;
+        .weui-btn + .weui-btn {
+          margin-top: 0;
+        }
+        .weui-btn {
+          border-radius: 0;
+          height: 0.44rem;
+          width: 1.04rem;
+          font-size: 0.15rem;
+          line-height: 0.44rem;
+          &:after {
+            border: 0;
+          }
+        }
+        .btn-reQuote {
+          background: #FF4E50;
+        }
+        .btn-back {
+          background: #00A0E9;
+        }
+      }
+    }
+  }
+  .vux-check-icon > .weui-icon-success:before, .vux-check-icon > .weui-icon-success-circle:before {
+    color: #0080FF !important;
+  }
+}
+.vux-confirm{
+  .weui-dialog__ft {
+    .weui-dialog__btn_default {
+      color: #00A0E9;
+    }
+    .weui-dialog__btn_primary {
+      color: #00A0E9;
+    }
+  }
+}
+.mission-fail{
+  &-textarea{
+    width:2.4rem;
+    background:#fafafa;
+    border:none;
+    outline:none;
+    height:0.9rem;
+    padding:0.07rem 0.15rem;
+    box-sizing: border-box;
+    display: block;
+    font-size:.14rem;
+  }
+}
+.confirm-buy.vux-confirm {
+  .weui-dialog {
+    width: 2.7rem;
+    //height: 2.17rem;
+    color: #030303;
+    border-radius: 0.12rem;
+    .weui-dialog__hd {
+      padding-bottom: 0.12rem;
+    }
+    .weui-dialog__bd {
+      padding: 0 0.36rem !important;
+      color: #030303;
+      .confirm-buy-item {
+        margin-bottom: 0.09rem;
+        text-align: left;
+        display: flex;
+        .confirm-buy-item-label {
+          display: flex;
+          align-items: center;
+        }
+        .confirm-buy-item-value-first {
+          margin-left: 0.30rem;
+        }
+        .letterSpace-7px {
+          letter-spacing: 0.07rem;
+        }
+        .confirm-buy-item-value {
+          margin-left: 0.11rem;
+          input {
+            width: 0.90rem;
+            height: 0.2rem;
+            background: #F3F3F3;
+            border: 0;
+            -webkit-appearance: none;
+            border-radius: 0.04rem;
+            padding: 0.06rem 0 0.08rem 0.08rem;
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.dialog-buySuccess {
+  .weui-dialog {
+    width: 2.7rem;
+    height: 1.43rem;
+    border-radius: 0.12rem;
+    padding-top: 0.25rem;
+  }
+}
+.vux-x-dialog-absolute .weui-dialog {
+  position: fixed;
+}
